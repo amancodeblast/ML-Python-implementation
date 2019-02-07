@@ -19,12 +19,12 @@ These assignments work seamlessly with the class and do not require any of the m
 
 To get started, you can start by either downloading a zip file of these assignments by clicking on the `Clone or download` button. If you have `git` installed on your system, you can clone this repository using : 
 
-    clone https://github.com/dibgerge/ml-coursera-python-assignments.git
-    
+    clone https://github.com/amancodeblast/ML-Python-implementation.git
+
 Each assignment is contained in a separate folder. For example, assignment 1 is contained within the folder `Exercise1`. Each folder contains two files: 
  - The assignment `jupyter` notebook, which has a `.ipynb` extension. All the code which you need to write will be written within this notebook.
  - A python module `utils.py` which contains some helper functions needed for the assignment. Functions within the `utils` module are called from the python notebook. You do not need to modify or add any code to this file.
- 
+
 ## Requirements 
 
 These assignments has been tested and developed using the following libraries: 
@@ -35,7 +35,7 @@ These assignments has been tested and developed using the following libraries:
     - matplotlib==2.1.2
     - jupyter==1.0.0
     - jupyter-client==5.0.1
-    
+
 We recommend using at least these versions of the required libraries or later. Python 2 is not supported. 
     
 ## Python Installation
@@ -44,25 +44,25 @@ We highly recommend using anaconda for installing python. [Click here](https://w
 If you are on a windows machine:
  - Open the executable after download is complete and follow instructions.
  - Once installation is complete, open `Anaconda prompt` from the start menu. This will open a terminal with python enabled.
- 
+
  If you are on a linux machine: 
- 
+
  - Open a terminal and navigate to the directory where Anaconda was downloaded. 
  - Change the permission to the downloaded file so that it can be executed. So if the downloaded file name is `Anaconda3-5.1.0-Linux-x86_64.sh`, then use the following command:
- 
+
       `chmod a+x Anaconda3-5.1.0-Linux-x86_64.sh`
- 
+
  - Now, run the installation script using `./Anaconda3-5.1.0-Linux-x86_64.sh`, and follow installation instructions in the terminal.
- 
- 
+
+
 Once you have installed python, create a new python environment will all the requirements using the following command: 
 
     conda create -n machine_learning python=3.6 scipy=1 numpy=1.13 matplotlib=2.1 jupyter
- 
+
 After the new environment is setup, activate it using (windows)
 
     activate machine_learning
-   
+
 or if you are on a linux machine
 
     source activate machine_learning 
